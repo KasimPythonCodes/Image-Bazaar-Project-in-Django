@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render ,redirect
 from django.http import HttpResponseRedirect
 from .forms import StudentForm ,Webs ,Webss, ImageForm
 from django.contrib import messages
